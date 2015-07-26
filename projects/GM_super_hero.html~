@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>dedudel.com</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+<title>GM Super Hero</title>
+</head>
+<body>
+
+<br><br>
+
+<span class="glyphicon glyphicon-arrow-left" aria-hidden="false"></span>
+ <a href="../index.html">Back Home</a> <p>
+
+ <img src="../images/4714a654cdd283f9370fecd06d325388.jpg" >
+<p>
+
+ <img src="../images/a46acd4e13365f0665466b75be706089.jpg" >
+
+
+</body>
+</html>
