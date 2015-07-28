@@ -10,8 +10,8 @@
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        <link href="css/site.css" rel="stylesheet" type="text/css"/>
+        <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="../css/site.css" rel="stylesheet" type="text/css"/>
     </head>
 
     
@@ -24,8 +24,8 @@
 
         <!--inports bootstrap javascript. So we can use the row / column layout.-->
         <!--@see http://getbootstrap.com/2.3.2/scaffolding.html-->
-        <script src="bootstrap/js/bootstrap.min.js"></script>
-        <script src="bootstrap/js/bootstrap.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.js"></script>
 
         <!--you always start with a container fluid-->
         <div class="container-fluid">
@@ -34,13 +34,15 @@
 
         <!--first line-->
         <div class="row-fluid">
-            <h1>You can do it Dee.</h1>
+            <div class="span4 offset4">
+                <h1>You can do it Dee.</h1>
+            </div>
         </div>
         <!--second line-->
         <div class="row-fluid">
 
             <!--we want space on the right then we take a block of 9 columns. We will then subdivide it with our stuff-->
-            <div class="span4 offset3 ">
+            <div class="span4 offset4 ">
 
                  <img src="../Project front pics/cseri.jpg" class="img-responsive" alt="Flying Kites">
             </div>

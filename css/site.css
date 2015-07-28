@@ -1,0 +1,25 @@
+.row-flluid.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row-flluid.no-gutter [class*='col-']:not(:first-child),
+.row-flluid.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.myButton {
+/*     width:auto;
+     height:auto;
+     display:block;*/
+     width:150px;
+     height:50px;
+     display:block;
+     background-image:url(../buttons/work-01.jpg);
+
+}
+
+.myButton:hover {
+     background-image:url(../buttons/about-01.jpg)
+}
