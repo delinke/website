@@ -35,9 +35,10 @@
 	    <div class="row">
 	        <div class="col-md-4">
 	            <img src="JPG front pictures/portfolio.jpg" class="img-responsive">
+	            <!-- 900x663 the size of the pics -->
 	        </div>
 	        <div class="col-md-4">
-	            <img src="JPG front pictures/fish and chips.jpg" class="img-responsive">
+	            <img src="JPG front pictures/profile picture.jpg" class="img-responsive">
 	        </div>
 	        <div class="col-md-4">
 	            <img src="JPG front pictures/about.jpg" class="img-responsive">
@@ -50,7 +51,7 @@
 	            <img src="JPG front pictures/gm super hero.jpg" class="img-responsive">
 	        </div>
 	        <div class="col-md-4">
-	            <img src="JPG front pictures/profile picture.jpg" class="img-responsive">
+	            <img src="JPG front pictures/contact.jpg" class="img-responsive">
 	        </div>
 	        <div class="col-md-4">
 	            <img src="JPG front pictures/spaceless c.jpg" class="img-responsive">
@@ -89,7 +90,7 @@
 	            <img src="JPG front pictures/cherry up.jpg" class="img-responsive">
 	        </div>
 	        <div class="col-md-4">
-	            <img src="JPG front pictures/contact.jpg" class="img-responsive">
+	            <img src="JPG front pictures/fish and chips.jpg" class="img-responsive">
 	        </div>
 	        <div class="col-md-4">
 	            <img src="JPG front pictures/fox.jpg" class="img-responsive">
