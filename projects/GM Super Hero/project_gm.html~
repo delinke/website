@@ -1,0 +1,89 @@
+<html>
+
+    <!--YOU SHOULD NOT HAVE TO TOUCH ANYTHING IN <HEAD/>--> 
+    <head>
+        <title>dedudel.com</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="../../css/projects.css" rel="stylesheet" type="text/css"/>
+        
+    </head>
+
+
+
+    
+    <body>
+
+
+        <!--inports bootstrap javascript. So we can use the row / column layout.-->
+        <!--@see http://getbootstrap.com/2.3.2/scaffolding.html-->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+
+           <!--a blank line-->
+        <div class="col-xs-12" style="height:50px;"></div>
+        
+        <div class="container-fluid">
+             <div class="row">
+
+
+                 <div class="col-md-1 col-md-offset-0 col-xs-2 col-xs-offset-10  col-md-push-10">
+
+                    <div class="pull-right">
+                        <a href="index.html">
+                            <!--back button. change here to try other designs-->
+                            <img src="../../about/back button black.png"  class="img-responsive"/>
+                        </a>
+                    </div>  
+                </div>
+
+                <div class="col-md-3 col-sm-12 col-xs-12 col-md-pull-1">
+
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-2 col-sm-12 col-xs-12">
+                                <h4>GM Super Hero</h4>
+                            <p align="justify">
+                                <br>
+                                
+                                Lately I have come across the subject of genetically modified foods. It has given me a couple of days to rethink. I don`t want to bore you stiff by sharing my exuberant philosophical ideas about this topic, but I definitely want to share my illustration. 
+                                The result is the ultimate super hero, Straw B.
+                            </p>
+                        </div>  
+                    </div>  
+                </div>  
+
+                <!--first image-->
+                <div class="col-md-7 col-sm-12 col-xs-12 col-md-pull-1">
+                    <img src="GM super hero.jpg" class="img-responsive">
+                </div>
+
+            </div>
+
+            <!--copy this line to add a third fourth etc... image-->
+            <!--from here-->
+            <!--a blank line-->
+            <div class="col-xs-12" style="height:50px;"></div>
+
+                <div class="row">
+
+                    <div class="col-md-7 col-md-offset-4 col-sm-12 col-xs-12 col-md-pull-1">
+                        <img src="details of gm super hero.jpg" class="img-responsive">
+                    </div>
+
+                </div>
+
+                <!--from to here-->
+                <!--And paste here -->
+            <!--a blank line-->
+            <div class="col-xs-12" style="height:50px;"></div>
+
+        </div>
+
+    </body>
+</html>
