@@ -45,7 +45,12 @@
                             
                         </div>
                         <div class="col-md-1 col-sm-1 col-xs-1">
-                        <img src="about/back button.png" class="img-responsive">
+							<a href="index.html">
+                        <img src="about/back button.png"  class="img-responsive"/>
+                    </a>
+
+                       
+                        
                             
                         </div>
                         
