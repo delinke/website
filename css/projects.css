@@ -1,7 +1,4 @@
 
-
-
-
 h3 {
     color: #666666;
     
@@ -9,6 +6,11 @@ h3 {
 p {
     color: #666666;
     font-size:larger;
+}
+
+.project-category {
+    color: #666666;
+    font-size:smaller;
 }
 .title {
     color: #666666;
