@@ -1,7 +1,29 @@
 
+.row.no-gutter [class*='col-']:not(:first-child),.row.no-gutter [class*='col-']:not(:last-child) {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right:0;
+    padding-left:0;
+}
+
+.row-grey  {
+    background-color: #cccccc;
+}
+
+.row-no-padding {
+    margin-left: 0;
+    margin-right: 0;
+    [class*="col-"] {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+
+
 h3 {
     color: #666666;
-    
+
 }
 p {
     color: #666666;
@@ -15,7 +37,7 @@ p {
 .title {
     color: #666666;
     font-size:x-large;
-   margin-top: 0px;
+    margin-top: 0px;
     padding-top: 0px;
 }
 h4 {
