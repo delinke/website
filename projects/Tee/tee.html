@@ -16,6 +16,15 @@
         <!--imports scroll to top javascript-->
         <script type="text/javascript"
                 src="../../css/projects.js">
+        </script>  <script>
+            $(function () {
+                $("#footer").load("../footer/footer.html");
+            });
+        </script> 
+        <script>
+            $(function () {
+                $("#header").load("../header/header.html");
+            });
         </script> 
     </head>
 
@@ -35,7 +44,7 @@
 
         <div class="container-fluid">
 
-
+            <div id="header"></div>
 
             <div class="row">
 
@@ -144,9 +153,7 @@
                 </div>
             </div>
 
-            <!--a blank line-->
-            <div class="col-xs-12" style="height:50px;"></div>
-
+            <div id="footer"></div>
         </div>
 
     </body>
