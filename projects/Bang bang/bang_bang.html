@@ -19,7 +19,12 @@
         </script> 
         <script>
             $(function () {
-                $("#footer").load("../footer.html");
+                $("#footer").load("../footer/footer.html");
+            });
+        </script> 
+        <script>
+            $(function () {
+                $("#header").load("../header/header.html");
             });
         </script> 
     </head>
@@ -38,36 +43,10 @@
 
 
 
+
         <div class="container-fluid">
 
-            <!--logo on the left-->
-            <div class="row row-grey" >
-                <div class="col-lg-2 col-md-3 col-xs-4">
-                    <a href="../../index.html" >                    
-                        <img src="../../images/logo.jpg" class="img-responsive">
-                    </a>
-                </div>
-            </div>
-
-            <!--an extra grey line. grey is defined in the projects css-->
-            <div class="row row-grey" >
-                <div class="col-xs-36 col-xs-12" style="height:7px;"></div>
-            </div>
-
-            <!--an extra white line. -->
-            <div class="row " >
-                <div class="col-xs-12" style="height:50px;"></div>
-            </div>
-
-
-            <!--The back button."Fixed" si it stays on top. see project.css -->
-            <div class="row row-grey" >
-                <div class="col-md-1 col-md-offset-11 hidden-sm hidden-xs Fixed"   >
-                    <a href="../../index.html" >                    
-                        <img src="../back_button.png" class="img-responsive">
-                    </a>
-                </div>
-            </div>
+            <div id="header"></div>
 
             <div class="row">
 
@@ -163,110 +142,7 @@
                 </div>
             </div>
 
-            <div class="row" >
-                <!--a  white blank line-->
-                <div class="col-md-12" style="height:10px;"></div>
-            </div>
-            <div class="row" >
-                <!--a  white blank line-->
-                <div class="col-md-0 col-xs-12" style="height:30px;"></div>
-            </div>
-
-            <div class="row row-grey" >
-                <!--a  grey blank line. no-gutter is in the css and makes stuff grey-->
-                <div class="col-md-24 col-xs-12" style="height:70px;"></div>
-            </div>
-
-            <div class="row  row-grey" >
-                <!--<div class="row no-gutter row-grey" >-->
-
-                <!--left column empty. same as the description on top-->
-                <div class="col-lg-3 col-sm-12 col-xs-12"></div>
-
-
-                <!--Middle column-->
-                <div class="col-lg-7 col-sm-12 col-xs-12 " >
-                    <div class="row no-gutter">
-
-                        <div class=" col-md-3 hidden-sm hidden-xs">
-                            <div><img src="../../contact/spacefirstline.jpg" class="img-responsive"></div>
-                        </div>
-
-                        <div class=" col-md-1 col-xs-2" >
-                            <a href="https://uk.linkedin.com/in/delinke-dedu-b28831bb" target="blank" >                    
-                                <img src="../../contact/linkedin.jpg" class="img-responsive">
-                            </a>
-                        </div>
-                        <div class=" col-md-1 col-xs-2" >
-                            <a href="https://www.facebook.com/dedudel/" target="blank">                    
-                                <img src="../../contact/facebook.jpg" class="img-responsive">
-                            </a>
-                        </div>
-                        <div class=" col-md-1 col-xs-2" >
-                            <a href="https://twitter.com/DelinkeDedu" target="blank" >                    
-                                <img src="../../contact/twitter.jpg" class="img-responsive">
-                            </a>
-                        </div>
-                        <div class=" col-md-1 col-xs-2" >
-                            <a href="http://dedudel.tumblr.com/" target="blank" >                    
-                                <img src="../../contact/tumbler.jpg" class="img-responsive">
-                            </a>
-                        </div>
-                        <div class=" col-md-1 col-xs-2" >
-                            <a href="https://www.behance.net/dedude" target="blank" >                    
-                                <img src="../../contact/behance.jpg" class="img-responsive">
-                            </a>
-                        </div>
-                        <div class=" col-md-1 col-xs-2" >
-                            <a href="https://www.instagram.com/dedudel/" target="blank" >                    
-                                <img src="../../contact/instagram.jpg" class="img-responsive">
-                            </a>
-                        </div>
-                        <div class=" col-md-3 hidden-sm hidden-xs">
-                            <div><img src="../../contact/spacefirstline.jpg" class="img-responsive"></div>
-                        </div>
-                    </div>
-
-
-                    <div class="row no-gutter">
-                        <div class=" col-md-3 hidden-sm hidden-xs"><img src="../../contact/spacesecondline.jpg" class="img-responsive"></div>
-                        <div class=" col-md-3 col-xs-6" >
-                            <img src="../../contact/email.jpg" class="img-responsive">
-                        </div>
-                        <div class=" col-md-3 col-xs-6" >
-                            <img src="../../contact/phonenumber.jpg" class="img-responsive">
-                        </div>
-                        <div class=" col-md-3 hidden-sm hidden-xs"><img src="../../contact/spacesecondline.jpg" class="img-responsive"></div>
-                    </div>
-
-
-                    <div class="row no-gutter">
-                        <div class=" col-md-3 hidden-sm hidden-xs"><img src="../../contact/spacethirdline.jpg" class="img-responsive"></div>
-                        <div class=" col-md-3 col-xs-6" >
-                            <img src="../../contact/copy.jpg" class="img-responsive">
-                        </div>
-                        <div class=" col-md-3 col-xs-6" >
-                            <img src="../../contact/write.jpg" class="img-responsive">
-                        </div>
-                        <div class=" col-md-3 hidden-sm hidden-xs"><img src="../../contact/spacethirdline.jpg" class="img-responsive"></div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="row row-grey" >
-                <div class="col-xs-12" style="height:70px;"></div>
-            </div>
-            
             <div id="footer"></div>
         </div>
-
-
-
-
-
-
-
-
-
     </body>
 </html>

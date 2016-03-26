@@ -1,4 +1,4 @@
-                
+
 //script to scroll to top of a page
 // second number determines time took to move up
                 $(document).ready(function () {
