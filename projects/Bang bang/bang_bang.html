@@ -17,6 +17,11 @@
         <script type="text/javascript"
                 src="../../css/projects.js">
         </script> 
+        <script>
+            $(function () {
+                $("#footer").load("../footer.html");
+            });
+        </script> 
     </head>
 
 
@@ -169,7 +174,7 @@
 
             <div class="row row-grey" >
                 <!--a  grey blank line. no-gutter is in the css and makes stuff grey-->
-                <div class="col-md-24 col-xs-12" style="height:50px;"></div>
+                <div class="col-md-24 col-xs-12" style="height:70px;"></div>
             </div>
 
             <div class="row  row-grey" >
@@ -183,7 +188,9 @@
                 <div class="col-lg-7 col-sm-12 col-xs-12 " >
                     <div class="row no-gutter">
 
-                        <div class=" col-md-3 col-xs-0"></div>
+                        <div class=" col-md-3 hidden-sm hidden-xs">
+                            <div><img src="../../contact/spacefirstline.jpg" class="img-responsive"></div>
+                        </div>
 
                         <div class=" col-md-1 col-xs-2" >
                             <a href="https://uk.linkedin.com/in/delinke-dedu-b28831bb" target="blank" >                    
@@ -215,31 +222,43 @@
                                 <img src="../../contact/instagram.jpg" class="img-responsive">
                             </a>
                         </div>
+                        <div class=" col-md-3 hidden-sm hidden-xs">
+                            <div><img src="../../contact/spacefirstline.jpg" class="img-responsive"></div>
+                        </div>
                     </div>
+
+
                     <div class="row no-gutter">
-                        <div class=" col-md-3 col-xs-0"></div>
+                        <div class=" col-md-3 hidden-sm hidden-xs"><img src="../../contact/spacesecondline.jpg" class="img-responsive"></div>
                         <div class=" col-md-3 col-xs-6" >
                             <img src="../../contact/email.jpg" class="img-responsive">
                         </div>
                         <div class=" col-md-3 col-xs-6" >
-                            <img src="../../contact/phone.jpg" class="img-responsive">
+                            <img src="../../contact/phonenumber.jpg" class="img-responsive">
                         </div>
+                        <div class=" col-md-3 hidden-sm hidden-xs"><img src="../../contact/spacesecondline.jpg" class="img-responsive"></div>
                     </div>
+
+
                     <div class="row no-gutter">
-                        <div class=" col-md-3 col-xs-0"></div>
+                        <div class=" col-md-3 hidden-sm hidden-xs"><img src="../../contact/spacethirdline.jpg" class="img-responsive"></div>
                         <div class=" col-md-3 col-xs-6" >
-                            <img src="../../contact/copywrite1.jpg" class="img-responsive">
+                            <img src="../../contact/copy.jpg" class="img-responsive">
                         </div>
                         <div class=" col-md-3 col-xs-6" >
-                            <img src="../../contact/copywrite2.jpg" class="img-responsive">
+                            <img src="../../contact/write.jpg" class="img-responsive">
                         </div>
+                        <div class=" col-md-3 hidden-sm hidden-xs"><img src="../../contact/spacethirdline.jpg" class="img-responsive"></div>
                     </div>
                 </div>
 
             </div>
             <div class="row row-grey" >
-                <div class="col-xs-12" style="height:50px;"></div>
+                <div class="col-xs-12" style="height:70px;"></div>
             </div>
+            
+            <div id="footer"></div>
+        </div>
 
 
 
