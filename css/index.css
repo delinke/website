@@ -85,16 +85,19 @@
     opacity: 0;
 }
 
+.grid figure h3, 
 .grid figure h2 {
     word-spacing: -0.15em;
-    font-weight: 300;
+    font-weight: 800;
 }
 
+.grid figure h3 span,
 .grid figure h2 span {
     font-weight: 800;
 }
 
 .grid figure h2,
+.grid figure h3,
 .grid figure p {
     margin: 0;
 }
@@ -125,6 +128,7 @@ figure.effect-goliath img {
 }
 
 figure.effect-goliath h2,
+figure.effect-goliath h3,
 figure.effect-goliath p {
     position: absolute;
     bottom: 0;
@@ -132,14 +136,18 @@ figure.effect-goliath p {
     padding: 30px;
 }
 
+figure.effect-goliath h3,
 figure.effect-goliath p {
     text-transform: none;
-    font-size: 90%;
     opacity: 0;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
     -webkit-transform: translate3d(0,50px,0);
     transform: translate3d(0,50px,0);
+}
+
+figure.effect-goliath p {
+    font-size: 90%;
 }
 
 figure.effect-goliath:hover img {
@@ -154,6 +162,12 @@ figure.effect-goliath:hover h2 {
 
 figure.effect-goliath:hover p {
     opacity: 1;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,15px,0);
+    transform: translate3d(0,15px,0);
+}
+
+figure.effect-goliath:hover h3 {
+    opacity: 1;
+    -webkit-transform: translate3d(0,-10px,0);
+    transform: translate3d(0,-10px,0);
 }
