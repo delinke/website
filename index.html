@@ -34,120 +34,262 @@
             <!-- first line -->
             <!-- 1200x923 the size of the pics -->
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-xs-12">
-                    <img src="JPG front pictures/portfolio.jpg" class="img-responsive">
-                </div>
 
                 <div class="col-lg-4 col-md-6 col-xs-12">
-
-                    <a href="" onMouseOver="document.ProfileImage.src = 'JPG front pictures/profile picture_over.jpg';" onMouseOut="document.ProfileImage.src = 'JPG front pictures/profile picture.jpg';">
-                        <img src="JPG front pictures/profile picture.jpg" name="ProfileImage" class="img-responsive"/>
-                    </a>
+                    <img src="JPG front pictures/portfolio.jpg" class="img-responsive" onm>
                 </div>
 
-                <div class="col-lg-4 col-md-push-6  col-lg-push-0 col-md-6 col-xs-12 visible-md visible-lg">
-                        <div class="grid ">
-                            <figure class="effect-goliath">
-                                <img src="JPG front pictures/about.jpg" class="img-responsive">
-                                <figcaption>
-                                    <!--                                    <h2>Thoughtful <span>Goliath</span></h2>-->
-                                    <p>When Goliath comes out, you shoulddjhdkjdh When Goliath comes out, you should.</p>
-                                    <a href="about.html">View more</a>
-                                </figcaption>			
-                            </figure>
-                        </div>
-                </div>
-                <div class="col-lg-4 col-md-push-6  col-lg-push-0 col-md-6 col-xs-12 hidden-md hidden-lg">
-                    <a href="about.html" onclick="location.href = 'about.html'" >
-                        <img src="JPG front pictures/about.jpg" class="img-responsive">
-                    </a>
+                <div class="col-lg-4 col-md-6 col-xs-12">
+                    <img src="JPG front pictures/profile picture.jpg" name="ProfileImage" class="img-responsive" onMouseOver="document.ProfileImage.src = 'JPG front pictures/profile picture_over.jpg';" onMouseOut="document.ProfileImage.src = 'JPG front pictures/profile picture.jpg';"/>
                 </div>
 
-                    <div class="col-lg-4 col-lg-pull-0  col-md-pull-6   col-md-6 col-xs-12">
+
+                <!-- In the following lines.... For each "linkable" page there is 2 versions of the image/link. 
+                One with the hover for desktop screens and a simple clickable image for smaller screens.
+                This result in quite some duplication. TODO : create a specific component to "factorize the code"?
+                -->
+                <div class="col-lg-4 col-md-push-6  col-lg-push-0 col-md-6 col-xs-12 ">
+                    <div class="grid visible-md visible-lg">
+                        <figure class="effect-goliath">
+                            <img src="JPG front pictures/about.jpg" class="img-responsive">
+                            <figcaption>
+                                <!--<h3>About Page</h3>-->
+                                <p>Who I am</p>
+                                <a href="about.html"></a>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    <div class="hidden-md hidden-lg">
+                        <a href="about.html">
+                            <img src="JPG front pictures/about.jpg" class="img-responsive">
+                        </a>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-4 col-lg-pull-0 col-md-pull-6 col-md-6 col-xs-12">
+                    <div class="grid visible-md visible-lg">
+                        <figure class="effect-goliath">
+                            <img src="JPG front pictures/gm super hero.jpg" class="img-responsive">
+                            <figcaption>
+                                <h3>About Page</h3>
+                                <p>Who I am</p>
+                                <a href="projects/GM Super Hero/gm_super_hero.html"></a>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    <div class="hidden-md hidden-lg">
                         <a href="projects/GM Super Hero/gm_super_hero.html" >
                             <img src="JPG front pictures/gm super hero.jpg" class="img-responsive">
                         </a>
                     </div>
+                </div>
 
-                    <div class="col-lg-4 col-md-6  col-xs-12">                    
-                        <img src="JPG front pictures/contact.jpg" class="img-responsive">
+                <div class="col-lg-4 col-md-6  col-xs-12"> 
+                    <div class="grid visible-md visible-lg">
+                        <figure class="effect-goliath">
+                            <img src="JPG front pictures/contact.jpg" class="img-responsive">
+                            <figcaption>
+                                <h3>About Page</h3>
+                                <p>Who I am</p>
+                                <a href="contact/contact.html"></a>
+                            </figcaption>			
+                        </figure>
                     </div>
+                    <div class="hidden-md hidden-lg">
+                        <a href="contact/contact.html" >
+                            <img src="JPG front pictures/contact.jpg" class="img-responsive">
+                        </a>
+                    </div>
+                </div>
 
-                    <div class="col-lg-4 col-md-6 col-xs-12">
-                        <a href="projects/Spaceless C/spaceless_c.html" >                    
+                <div class="col-lg-4 col-md-6 col-xs-12">
+                    <div class="grid visible-md visible-lg">
+                        <figure class="effect-goliath">
+                            <img src="JPG front pictures/spaceless c.jpg" class="img-responsive">
+                            <figcaption>
+                                <h3>About Page</h3>
+                                <p>Who I am</p>
+                                <a href="projects/Spaceless C/spaceless_c.html"></a>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    <div class="hidden-md hidden-lg">
+                        <a href="projects/Spaceless C/spaceless_c.html" >
                             <img src="JPG front pictures/spaceless c.jpg" class="img-responsive">
                         </a>
                     </div>
+                </div>
 
-                    <!-- third line -->	   
+                <!-- third line -->	   
 
-                    <div class="col-lg-4 col-md-6 col-xs-12">
-                        <img src="JPG front pictures/decoration animation.gif" class="img-responsive">
+                <div class="col-lg-4 col-md-6 col-xs-12">
+                    <img src="JPG front pictures/decoration animation.gif" class="img-responsive">
+                </div>
+                <!--  </div>-->
+                <div class="col-lg-4 col-md-6 col-xs-12">
+                    <div class="grid visible-md visible-lg">
+                        <figure class="effect-goliath">
+                            <img src="JPG front pictures/deer.jpg" class="img-responsive">
+                            <figcaption>
+                                <h3>About Page</h3>
+                                <p>Who I am</p>
+                                <a href="projects/Bang bang/bang_bang.html"></a>
+                            </figcaption>			
+                        </figure>
                     </div>
-                    <!--  </div>-->
-                    <div class="col-lg-4 col-md-6 col-xs-12">
-                        <a href="projects/Bang bang/bang_bang.html" >                    
+                    <div class="hidden-md hidden-lg">
+                        <a href="projects/Bang bang/bang_bang.html" >
                             <img src="JPG front pictures/deer.jpg" class="img-responsive">
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-xs-12">
-                        <a href="projects/Sweeet/sweeet.html" >                    
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-xs-12">
+
+                    <div class="grid visible-md visible-lg">
+                        <figure class="effect-goliath">
+                            <img src="JPG front pictures/ice cream.jpg" class="img-responsive">
+                            <figcaption>
+                                <h3>About Page</h3>
+                                <p>Who I am</p>
+                                <a href="projects/Sweeet/sweeet.html"></a>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    <div class="hidden-md hidden-lg">
+                        <a href="projects/Sweeet/sweeet.html" >
                             <img src="JPG front pictures/ice cream.jpg" class="img-responsive">
                         </a>
                     </div>
+                </div>
 
-                    <!-- fourth line -->	   
-                    <div class="col-lg-4 col-md-6 col-xs-12">
-                        <a href="projects/Fals cognition/fals_cognition.html" >                    
+                <!-- fourth line -->	   
+                <div class="col-lg-4 col-md-6 col-xs-12">
+
+                    <div class="grid visible-md visible-lg">
+                        <figure class="effect-goliath">
                             <img src="JPG front pictures/gyros.jpg" class="img-responsive">
+                            <figcaption>
+                                <h3>About Page</h3>
+                                <p>Who I am</p>
+                                <a href="projects/Fals cognition/fals_cognition.html"></a>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    <div class="hidden-md hidden-lg">
+                        <a href="projects/Fals cognition/fals_cognition.html" >
+                            <img src="" class="img-responsive">
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-xs-12">
-                        <a href="projects/Koja/koja.html" >                    
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-xs-12">
+                    <div class="grid visible-md visible-lg">
+                        <figure class="effect-goliath">
+                            <img src="JPG front pictures/koja.jpg" class="img-responsive">
+                            <figcaption>
+                                <h3>About Page</h3>
+                                <p>Who I am</p>
+                                <a href="projects/Koja/koja.html"></a>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    <div class="hidden-md hidden-lg">
+                        <a href="projects/Koja/koja.html" >
                             <img src="JPG front pictures/koja.jpg" class="img-responsive">
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-xs-12">
+                </div>
 
 
-                        <!--change the path for the hover image : "onMouseOver" property-->
-                        <a href="" onMouseOver="document.BugImage.src = 'JPG front pictures/bug in the system_over.jpg';" onMouseOut="document.BugImage.src = 'JPG front pictures/bug in the system.jpg';">
-                            <img src="JPG front pictures/bug in the system.jpg" name="BugImage" class="img-responsive"/>
-                        </a>
 
+
+
+                <div class="col-lg-4 col-md-6 col-xs-12">
+                    <!--change the path for the hover image : "onMouseOver" property-->
+                    <img src="JPG front pictures/bug in the system.jpg" name="BugImage" class="img-responsive" onMouseOver="document.BugImage.src = 'JPG front pictures/bug in the system_over.jpg';" onMouseOut="document.BugImage.src = 'JPG front pictures/bug in the system.jpg';"/>
+                </div>
+
+                <!-- fifth line -->	   
+                <div class="col-lg-4 col-md-6 col-xs-12">
+
+
+                    <div class="grid visible-md visible-lg">
+                        <figure class="effect-goliath">
+                            <img src="JPG front pictures/cherry up.jpg" class="img-responsive">
+                            <figcaption>
+                                <h3>About Page</h3>
+                                <p>Who I am</p>
+                                <a href="projects/Cherry up/cherry_up.html"></a>
+                            </figcaption>			
+                        </figure>
                     </div>
-
-                    <!-- fifth line -->	   
-                    <div class="col-lg-4 col-md-6 col-xs-12">
-                        <a href="projects/Cherry up/cherry_up.html" >                   
+                    <div class="hidden-md hidden-lg">
+                        <a href="projects/Cherry up/cherry_up.html" >
                             <img src="JPG front pictures/cherry up.jpg" class="img-responsive">
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-xs-12">
-                        <a href="projects/Tee/tee.html" >                    
+                </div>
+
+
+
+
+                <div class="col-lg-4 col-md-6 col-xs-12">
+
+                    <div class="grid visible-md visible-lg">
+                        <figure class="effect-goliath">
+                            <img src="JPG front pictures/fox.jpg" class="img-responsive">
+                            <figcaption>
+                                <h3>About Page</h3>
+                                <p>Who I am</p>
+                                <a href="projects/Tee/tee.html"></a>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    <div class="hidden-md hidden-lg">
+                        <a href="projects/Tee/tee.html" >
                             <img src="JPG front pictures/fox.jpg" class="img-responsive">
                         </a>
+                    </div>                    
+                </div>
+
+
+                <!--This is the added image for medium screens (2 columns)-->
+                <!--The "visible-md" tells the browser to not show this element on other resolutions-->
+                <!--comment if you add a new project. Uncomment if you had a second one and your grid does not match again-->
+                <div class="visible-md col-md-6  ">
+                    <img src="JPG front pictures/koja.jpg" class="img-responsive">
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-xs-12">
+
+
+                    <div class="grid visible-md visible-lg">
+                        <figure class="effect-goliath">
+                            <img src="JPG front pictures/fish and chips.jpg" class="img-responsive">
+                            <figcaption>
+                                <h3>About Page</h3>
+                                <p>Who I am</p>
+                                <a href="projects/Fish and chips/fish_and_chips.html"></a>
+                            </figcaption>			
+                        </figure>
                     </div>
-
-
-                    <!--This is the added image for medium screens (2 columns)-->
-                    <!--The "visible-md" tells the browser to not show this element on other resolutions-->
-                    <!--comment if you add a new project. Uncomment if you had a second one and your grid does not match again-->
-                    <div class="visible-md col-md-6  ">
-                        <img src="JPG front pictures/koja.jpg" class="img-responsive">
-                    </div>
-
-
-                    <div class="col-lg-4 col-md-6 col-xs-12">
-                        <a href="projects/Fish and chips/fish_and_chips.html" >                     
+                    <div class="hidden-md hidden-lg">
+                        <a href="projects/Fish and chips/fish_and_chips.html" >
                             <img src="JPG front pictures/fish and chips.jpg" class="img-responsive">
                         </a>
                     </div>
-
-
-
                 </div>
+
+
+
             </div>
+        </div>
 
     </body>
 </html>
